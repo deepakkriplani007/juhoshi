@@ -3,7 +3,7 @@ import Axios from "axios";
 const Admin = () => {
   const [result, setResult] = useState([[]]);
   // const host = "http://localhost:5000";
-  const host = "https://juhoshi.onrender.com/";
+  const host = "https://juhoshi.onrender.com";
   function groupObjectsById(objects) {
     const groupedArrays = {};
 

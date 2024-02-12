@@ -4,7 +4,7 @@ import { signInWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth } from "../auth/firebase";
 import Axios from "axios";
 const Login = ({ res, setRes }) => {
-  const host = "https://juhoshi.onrender.com/";
+  const host = "https://juhoshi.onrender.com";
   const [admin, setAdmin] = useState("");
   const navigate = useNavigate();
   const [value, setValue] = useState({
