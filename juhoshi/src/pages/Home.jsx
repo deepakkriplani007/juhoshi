@@ -4,7 +4,7 @@ import { signOut } from "firebase/auth";
 import { auth } from "../auth/firebase";
 import Axios from "axios";
 const Home = (props) => {
-  const host = "http://localhost:5000";
+  const host = "https://juhoshi.onrender.com/";
   const navigate = useNavigate();
   const [detail, setDetail] = useState({
     company: "",

@@ -9,7 +9,7 @@ import Admin from "./pages/Admin";
 import { auth } from "./auth/firebase";
 function App() {
   // let result = [[]];
-  const host = "http://localhost:5000";
+  const host = "https://juhoshi.onrender.com/";
   // function groupObjectsById(objects) {
   //   const groupedArrays = {};
 
